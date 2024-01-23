@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-ezUzoJccj0R+LGrZ9fTfP2QcGpApTTIA6B9fRVpCq3lhpkw8ADrui0BYPP3VXZvMJdw3Mvj3S00BX4F+HeWXgA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Tu Sitio Web</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="left">
+            <a href="index.html" class="styled-link">Andrés Marcelo Esquivel</a>
+        </div>
+        <div class="center">
+            <a href="resume-section.html" onclick="loadResume()" class="styled-link">My Resume</a>
+        </div>
+    </div>
+    <hr>
+    <div class="content" id="main">
+        <!-- Contenido principal -->
+        <div class="left">
+            <img src="tu_foto.jpg" alt="Tu Foto">
+            <p class="text">© Copyright all rights reserved. Mindenkié</p>
+        </div>
+        <div class="right">
+            <p class="text">I am a highly proactive worker who enjoys staying informed about all work-related matters and contributing to maintaining a happy and welcoming work environment. I was born in South America, where, due to diverse working conditions, we are adept at navigating through adverse moments and transforming them into positive experiences. This ability has resulted in short and medium-term achievements in the places where I have previously worked.</p>
+            <p class="text">I have a passion for reading and engage in sports such as soccer and physical exercise. Additionally, I frequently write poems and create music for personal enjoyment.</p>
+            <p class="text">I am enthusiastic about the opportunity to positively contribute to your team and apply my skills and experiences to your company. My proactive approach and ability to foster a positive work environment have allowed me to achieve success in previous roles.</p>
+        </div>
+        <!-- Sección para el currículum (inicialmente oculta) -->
+        <div class="resume-section" style="display: none;">
+            <h1>Download resume:</h1>
+            <p>Información sobre tu experiencia, habilidades, etc.</p>
+            <a href="ruta/al/archivo.pdf" download="Andres_Esquivel_Resume.pdf" class="download-link">
+                <i class="fas fa-download"></i> Download PDF
+            </a>
+        </div>
+    </div>
+</body>
+</html>
