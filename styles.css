@@ -1,0 +1,93 @@
+body {
+    background-color: #c2daff;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #c2daff;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+    font-size: 22px;
+}
+
+.navbar .center {
+    display: flex;
+}
+
+hr {
+    margin: 0;
+    border: 1px solid #000;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.left img {
+    width: 595px;
+    height: 1116px;
+    object-fit: cover;
+}
+
+.right {
+    text-align: center;
+    margin: auto; /* Añadido para centrar la div */
+    margin-top:120px; /* Ajustado para subir un poco la div */
+}
+
+.text {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+/* Estilos para los párrafos específicos */
+.text:nth-child(1) {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.text:nth-child(2) {
+    font-family: Arial, sans-serif;
+    font-size: 26px;
+}
+
+.text:nth-child(3) {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+}
+.styled-link {
+    text-decoration: none; /* Quita el subrayado predeterminado de los enlaces */
+    color: #333; /* Cambia el color del texto del enlace según sea necesario */
+    font-weight: bold; /* Otra posible modificación de estilo */
+    font-size: 18px; /* Tamaño de fuente personalizado */
+}
+
+
+.styled-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.download-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #4CAF50; /* Cambia el color del fondo según sea necesario */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
